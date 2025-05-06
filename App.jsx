@@ -1,5 +1,5 @@
 import { View, StyleSheet } from 'react-native';
-import PrinterConnection from '../components/PrinterConnection';
+import PrinterConnection from './components/PrinterConnection';
 import Toast from 'react-native-toast-message';
 
 export default function App() {

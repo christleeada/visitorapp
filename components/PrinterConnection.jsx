@@ -14,7 +14,7 @@ import { Feather } from "@expo/vector-icons";
 import Toast from "react-native-toast-message";
 import * as Animatable from "react-native-animatable";
 
-export default function BadgePrinter() {
+export default function PrinterConnection() {
   const badgeRef = useRef();
   const [selectedPrinter, setSelectedPrinter] = useState(null);
   const [name, setName] = useState("");
@@ -279,8 +279,8 @@ const styles = StyleSheet.create({
     opacity: 0.7,
   },
   logo: {
-    width: 240,
-    height: 240,
+    width: 235,
+    height: 235,
     marginRight: 5,
   },
   input: {
